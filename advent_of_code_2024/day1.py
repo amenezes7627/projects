@@ -1,5 +1,5 @@
 # part 1
-fp = open("input.txt")
+fp = open("day1.txt")
 list1 = []
 list2 = []
 for line in fp.readlines():
