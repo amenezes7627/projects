@@ -1,5 +1,5 @@
 # part 1
-fp = open("input.txt")
+fp = open("day1.txt")
 list1 = []
 list2 = []
 for line in fp.readlines():
@@ -21,5 +21,6 @@ sim_score = 0;
 for num in list1:
     count = list2.count(num)
     sim_score += num * count
-
+   
 print(sim_score)
+
