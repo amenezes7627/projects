@@ -21,5 +21,6 @@ sim_score = 0;
 for num in list1:
     count = list2.count(num)
     sim_score += num * count
-
+   
 print(sim_score)
+
