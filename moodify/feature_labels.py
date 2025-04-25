@@ -5,8 +5,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # Spotify API credentials
-client_id = "f461c55446d54a73bcb55935b6f13c47"
-client_secret = "957be0b6f5f949d5ace9149f42fd3259"
+client_id = "********************************"
+client_secret = "********************************"
 
 # Set up Spotify API client
 credentials = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
@@ -22,7 +22,7 @@ def get_audio_features_in_batches(spotify, track_ids, batch_size=100):
 
 def fetch_songs():
     start_time = time.time()
-    playlist_id = "1btHXLe6U9fvtuHpt2y1Br"
+    playlist_id = "********************************"
     songs = []
     offset = 0
     
